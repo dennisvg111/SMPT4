@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Coaching App Coach</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_app_coach_start">AppCoachStart</string>
+    <string name="welke_sporten_ondersteunt_de_app">Welke sporten ondersteunt de app?</string>
+    <string name="crosstrainer">Crosstrainer</string>
+    <string name="fietsen">Fietsen</string>
+    <string name="hardlopen">Hardlopen</string>
+    <string name="fitness">Fitness</string>
+    <string name="losse_gewichten">Losse gewichten</string>
+    <string name="specifieke_spiergroepen">Specifieke spiergroepen</string>
 </resources>

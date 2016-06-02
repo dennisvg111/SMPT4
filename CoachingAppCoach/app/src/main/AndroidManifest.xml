@@ -21,6 +21,14 @@
         <activity
             android:name=".AppCoachStart"
             android:label="@string/title_activity_app_coach_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachQuestion"
+            android:label="@string/title_activity_app_coach_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachResult"
+            android:label="@string/title_activity_app_coach_result"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

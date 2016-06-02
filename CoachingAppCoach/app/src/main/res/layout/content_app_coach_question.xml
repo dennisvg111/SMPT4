@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cac.fhict.org.coachingappcoach.AppCoachQuestion"
+    tools:showIn="@layout/activity_app_coach_question">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Houdt de app de route bij die de gebruiker heeft gelopen/gefietst?"
+        android:id="@+id/tvwQuestion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kan de gebruiker in de app of op een website zien welke route hij heeft gelopen/gefietst op een bepaalde dag?"
+        android:id="@+id/tvwQuestionDescription"
+        android:layout_below="@+id/tvwQuestion"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_button_height"
+        android:text="Ja, zowel in de app als op een website"
+        android:id="@+id/btnAnswer1"
+        android:layout_below="@+id/tvwQuestionDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_button_height"
+        android:text="Ja, in de app"
+        android:id="@+id/btnAnswer2"
+        android:layout_below="@+id/btnAnswer1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_button_height"
+        android:text="Ja, op een website"
+        android:id="@+id/btnQuestion3"
+        android:layout_below="@+id/btnAnswer2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_button_height"
+        android:text="Nee"
+        android:id="@+id/btnQuestion4"
+        android:layout_below="@+id/btnQuestion3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/nav_button_height"
+        android:text="Vorige"
+        android:id="@+id/btnBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

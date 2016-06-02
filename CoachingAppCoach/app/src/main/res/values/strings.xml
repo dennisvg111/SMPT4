@@ -9,4 +9,6 @@
     <string name="fitness">Fitness</string>
     <string name="losse_gewichten">Losse gewichten</string>
     <string name="specifieke_spiergroepen">Specifieke spiergroepen</string>
+    <string name="title_activity_app_coach_question">AppCoachQuestion</string>
+    <string name="title_activity_app_coach_result">AppCoachResult</string>
 </resources>

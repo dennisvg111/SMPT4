@@ -74,7 +74,7 @@ android:gravity="center_vertical">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Krachttraining"
+        android:text="@string/strengthtraining"
         android:id="@+id/tvwStrengthTraining"
         android:layout_below="@+id/cbxCrosstrainer"
         android:layout_alignParentStart="true"
@@ -111,7 +111,7 @@ android:gravity="center_vertical">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Muziek"
+        android:text="@string/music"
         android:id="@+id/tvwMusic"
         android:layout_below="@+id/cbxSpecificMuscles"
         android:layout_alignParentStart="true"
@@ -139,7 +139,7 @@ android:gravity="center_vertical">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Overig"
+        android:text="@string/miscellaneous"
         android:id="@+id/tvwOther"
         android:layout_below="@+id/cbxRumba"
         android:layout_alignParentStart="true"
@@ -161,10 +161,11 @@ android:gravity="center_vertical">
 <Button
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_button_height"
-    android:text="Volgende"
+    android:text="@string/next"
     android:layout_alignParentBottom="true"
     android:layout_below="@id/rltContent"
-    android:enabled="false" />
+    android:enabled="false"
+    android:textAllCaps="false"/>
 
 
 </RelativeLayout>

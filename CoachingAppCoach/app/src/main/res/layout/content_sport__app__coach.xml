@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="cac.fhict.org.coachingappcoach.Sport_App_Coach"
+    tools:context=".SportAppCoach"
     tools:showIn="@layout/activity_sport__app__coach">
 
     <Button
@@ -23,7 +23,9 @@
         android:layout_marginRight="20dp"
         android:height="150dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 
     <Button
         android:layout_width="fill_parent"
@@ -34,5 +36,7 @@
         android:layout_alignStart="@+id/button"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:height="150dp"/>
+        android:height="150dp"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 </RelativeLayout>

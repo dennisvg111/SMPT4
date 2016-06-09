@@ -97,7 +97,8 @@
                     android:layout_height="67dp"
                     android:inputType="textMultiLine"
                     android:ems="10"
-                    android:id="@+id/editText" />
+                    android:id="@+id/editText"
+                    android:hint="Leave a comment!" />
             </LinearLayout>
 
         </LinearLayout>

@@ -11,4 +11,9 @@
     <string name="specifieke_spiergroepen">Specifieke spiergroepen</string>
     <string name="title_activity_app_coach_question">AppCoachQuestion</string>
     <string name="title_activity_app_coach_result">AppCoachResult</string>
+    <string name="title_activity_app_finder_start">AppFinderStart</string>
+    <string name="gebruikenApp">Voor welke sport(en) wil je de app gebruiken?</string>
+    <string name="title_activity_sport__app__coach">Sport_App_Coach</string>
+    <string name="zoekApp">Ik zoek een sport app</string>
+    <string name="maakApp">Ik maak een sport app</string>
 </resources>

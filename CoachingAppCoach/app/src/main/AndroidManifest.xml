@@ -29,6 +29,14 @@
         <activity
             android:name=".AppCoachResult"
             android:label="@string/title_activity_app_coach_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderStart"
+            android:label="@string/title_activity_app_finder_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sport_App_Coach"
+            android:label="@string/title_activity_sport__app__coach"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

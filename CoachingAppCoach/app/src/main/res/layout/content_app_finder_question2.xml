@@ -63,7 +63,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@dimen/nav_button_height"
         android:text="@string/answer3AFQ"
-        android:id="@+id/btnQuestion3"
+        android:id="@+id/btnAnswer3"
         android:layout_below="@+id/btnAnswer2"
         android:layout_alignParentStart="true"
         android:layout_marginTop="5dp"
@@ -74,8 +74,8 @@
         android:layout_width="fill_parent"
         android:layout_height="@dimen/nav_button_height"
         android:text="@string/answer4AFQ"
-        android:id="@+id/btnQuestion4"
-        android:layout_below="@+id/btnQuestion3"
+        android:id="@+id/btnAnswer4"
+        android:layout_below="@+id/btnAnswer3"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
         android:gravity="center|start"
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/nav_button_height"
         android:text="@string/back"
-        android:id="@+id/btnBack"
+        android:id="@+id/btnQuestionBack"
         android:width="100dp"
         android:textAllCaps="false"
         android:layout_below="@+id/radioButton"
@@ -99,7 +99,7 @@
         android:id="@+id/textView2"
         android:textSize="12sp"
         android:layout_marginTop="26dp"
-        android:layout_below="@+id/btnQuestion4"
+        android:layout_below="@+id/btnAnswer4"
         android:layout_alignParentStart="true" />
 
     <Button
@@ -120,7 +120,7 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
-        android:layout_alignEnd="@+id/btnBack" />
+        android:layout_alignEnd="@+id/btnQuestionBack" />
 
     <RadioButton
         android:layout_width="wrap_content"

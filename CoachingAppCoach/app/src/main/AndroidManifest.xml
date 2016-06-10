@@ -12,16 +12,12 @@
             android:name=".StartPage"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AppCoachStart"
             android:label="@string/title_activity_app_coach_start"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity
             android:name=".AppCoachQuestion"
             android:label="@string/title_activity_app_coach_question"
@@ -41,7 +37,16 @@
         <activity
             android:name=".SportAppCoach"
             android:label="@string/title_activity_sport__app__coach"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
         <activity
             android:name=".AppFinderQuestion"
             android:label="@string/title_activity_app_finder_question" />

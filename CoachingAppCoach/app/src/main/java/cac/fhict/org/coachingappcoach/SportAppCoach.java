@@ -21,8 +21,8 @@ public class SportAppCoach extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        btnAppCoach = (Button)findViewById(R.id.button2);
-        btnAppfinder = (Button)findViewById(R.id.button);
+        btnAppCoach = (Button)findViewById(R.id.btnMakeApp);
+        btnAppfinder = (Button)findViewById(R.id.btnFindApp);
 
         btnAppfinder.setOnClickListener(new View.OnClickListener()
         {

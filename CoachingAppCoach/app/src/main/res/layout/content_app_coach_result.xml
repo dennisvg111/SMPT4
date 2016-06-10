@@ -259,11 +259,27 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/result_advice"
-                android:id="@+id/textView12"
+                android:id="@+id/tvwResultAdvice"
                 android:layout_column="0"
                 android:layout_below="@+id/textView11"
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:id="@+id/btnFindApp"
+                android:layout_below="@+id/tvwResultAdvice"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/btnResultSave"
+                android:layout_alignBottom="@+id/btnFindApp"
+                android:layout_alignParentEnd="true" />
 
         </RelativeLayout>
 

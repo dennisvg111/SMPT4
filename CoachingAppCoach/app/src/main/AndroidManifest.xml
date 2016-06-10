@@ -39,13 +39,15 @@
             android:label="@string/title_activity_sport__app__coach"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-<<<<<<< HEAD
             android:name=".AppFinderQuestion"
-            android:label="@string/title_activity_app_finder_question"
-=======
+            android:label="@string/title_activity_app_finder_question" />
+        <activity
             android:name=".AppFinderProduct"
             android:label="@string/title_activity_app_finder_product"
->>>>>>> origin/master
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AppFinderQuestion2"
+            android:label="@string/title_activity_app_finder_question2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

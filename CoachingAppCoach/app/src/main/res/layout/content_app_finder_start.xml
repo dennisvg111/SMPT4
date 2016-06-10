@@ -159,6 +159,7 @@ android:gravity="center_vertical">
 
 
 <Button
+    android:id="@+id/btnNext"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_button_height"
     android:text="@string/next"

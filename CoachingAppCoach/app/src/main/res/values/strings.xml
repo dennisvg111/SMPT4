@@ -61,4 +61,7 @@
     <string name="score_4_6">Score:4.6</string>
     <string name="description">Description:</string>
     <string name="title_activity_app_finder_question2">AppFinderQuestion2</string>
+    <string name="title_activity_app_finder_result">AppFinderResult</string>
+    <string name="titleAFQ2">Should the application keep track of the burned calories?</string>
+    <string name="ondertitleAFQ2">Is the user able to see the amount of burned calories on a certain day in the application or on a website?</string>
 </resources>

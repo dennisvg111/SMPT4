@@ -48,10 +48,14 @@
         <activity
             android:name=".AppFinderProduct"
             android:label="@string/title_activity_app_finder_product"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AppFinderQuestion2"
             android:label="@string/title_activity_app_finder_question2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderResult"
+            android:label="@string/title_activity_app_finder_result"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

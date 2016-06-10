@@ -107,10 +107,10 @@
         android:layout_height="@dimen/nav_button_height"
         android:text="@string/next"
         android:id="@+id/btnAFNextQ2"
-        android:layout_alignBottom="@+id/btnBack"
-        android:layout_alignParentEnd="true"
         android:width="100dp"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/radioButton3" />
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
         android:text="@string/notImportant"
         android:id="@+id/radioButton3"
         android:layout_alignTop="@+id/radioButton2"
-        android:layout_alignEnd="@+id/button3" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
 </ScrollView>

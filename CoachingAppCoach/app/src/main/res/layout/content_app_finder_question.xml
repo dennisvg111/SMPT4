@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -82,11 +85,10 @@
         android:layout_height="@dimen/nav_button_height"
         android:text="@string/back"
         android:id="@+id/btnBack"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="false"
         android:width="100dp"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -136,3 +138,4 @@
         android:layout_alignEnd="@+id/button3" />
 
 </RelativeLayout>
+</ScrollView>

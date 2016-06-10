@@ -27,6 +27,14 @@ public class AppFinderQuestion extends AppCompatActivity {
                 AppFinderQuestion.this.startActivity(intent);
             }
         });
+
+        Button btnBack = (Button)findViewById(R.id.btnQuestion2Back);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AppFinderQuestion.this.finish();
+            }
+        });
     }
 
 }

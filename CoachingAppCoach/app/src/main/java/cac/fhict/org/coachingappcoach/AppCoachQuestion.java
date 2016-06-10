@@ -20,7 +20,7 @@ public class AppCoachQuestion extends AppCompatActivity implements View.OnClickL
         Button btnAnswer2 = (Button)findViewById(R.id.btnAnswer2);
         Button btnAnswer3 = (Button)findViewById(R.id.btnAnswer3);
         Button btnAnswer4 = (Button)findViewById(R.id.btnAnswer4);
-        Button btnBack = (Button) findViewById(R.id.btnQuestionBack);
+        Button btnBack = (Button) findViewById(R.id.btnQuestion2Back);
 
         btnAnswer1.setOnClickListener(this);
         btnAnswer2.setOnClickListener(this);

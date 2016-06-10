@@ -49,7 +49,8 @@
 
         <activity
             android:name=".AppFinderQuestion"
-            android:label="@string/title_activity_app_finder_question" />
+            android:label="@string/title_activity_app_finder_question"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".AppFinderProduct"
             android:label="@string/title_activity_app_finder_product"

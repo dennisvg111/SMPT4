@@ -18,7 +18,7 @@ public class AppFinderStart extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button btn = (Button)findViewById(R.id.btnNext);
+        Button btn = (Button)findViewById(R.id.btnStartNext);
         btn.setOnClickListener(new View.OnClickListener()
         {
             @Override

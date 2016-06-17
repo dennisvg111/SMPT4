@@ -165,7 +165,10 @@
             android:layout_alignParentBottom="true"
             android:layout_below="@id/rltContent"
             android:enabled="true"
-            android:id="@+id/btnStartNext" />
+            android:id="@+id/btnStartNext"
+            android:background="@drawable/orange_button"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp" />
 
 
     </RelativeLayout>

@@ -9,15 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".StartPage"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
             android:name=".AppCoachStart"
             android:label="@string/title_activity_app_coach_start"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AppCoachQuestion"
             android:label="@string/title_activity_app_coach_question"
@@ -38,19 +32,16 @@
             android:name=".SportAppCoach"
             android:label="@string/title_activity_sport__app__coach"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name=".AppFinderQuestion"
             android:label="@string/title_activity_app_finder_question"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AppFinderProduct"
             android:label="@string/title_activity_app_finder_product"
@@ -62,6 +53,38 @@
         <activity
             android:name=".AppFinderResult"
             android:label="@string/title_activity_app_finder_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachStartCardio"
+            android:label="@string/title_activity_app_coach_start_cardio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachStartPower"
+            android:label="@string/title_activity_app_coach_start_power"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachStartMusic"
+            android:label="@string/title_activity_app_coach_start_music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppCoachStartMisc"
+            android:label="@string/title_activity_app_coach_start_misc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderCardio"
+            android:label="@string/title_activity_app_finder_cardio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderPower"
+            android:label="@string/title_activity_app_finder_power"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderMusic"
+            android:label="@string/title_activity_app_finder_music"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppFinderMisc"
+            android:label="@string/title_activity_app_finder_misc"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

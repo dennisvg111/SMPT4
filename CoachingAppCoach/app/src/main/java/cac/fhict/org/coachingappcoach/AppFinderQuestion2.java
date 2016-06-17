@@ -23,7 +23,7 @@ public class AppFinderQuestion2 extends AppCompatActivity {
         {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(AppFinderQuestion2.this, AppCoachResult.class);
+                Intent intent = new Intent(AppFinderQuestion2.this, AppFinderResult.class);
                 AppFinderQuestion2.this.startActivity(intent);
             }
         });

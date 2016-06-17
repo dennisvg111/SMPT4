@@ -101,19 +101,24 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/nav_button_height"
             android:text="@string/cancel"
             android:id="@+id/btnFindApp"
             android:layout_below="@+id/editText5"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:background="@drawable/grey_button"
+            android:layout_marginTop="10dp" />
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/nav_button_height"
             android:text="@string/save"
             android:id="@+id/btnSaveSave"
             android:layout_alignBottom="@+id/btnFindApp"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/orange_button"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp" />
 
     </RelativeLayout>
 </ScrollView>

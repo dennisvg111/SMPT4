@@ -28,7 +28,7 @@ public class SportAppCoach extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SportAppCoach.this, AppFinderStart.class);
+                Intent intent = new Intent(SportAppCoach.this, AppFinderCardio.class);
                 SportAppCoach.this.startActivity(intent);
             }
         });
@@ -37,7 +37,7 @@ public class SportAppCoach extends AppCompatActivity {
         {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(SportAppCoach.this, AppCoachStart.class);
+                Intent intent = new Intent(SportAppCoach.this, AppCoachStartCardio.class);
                 SportAppCoach.this.startActivity(intent);
             }
         });
